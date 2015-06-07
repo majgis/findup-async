@@ -28,6 +28,10 @@ the path to the directory where you want to start looking:
 If an incorrect path is given or a correct path is given but no package.json file
 is found, the promise resolves to null.
 
+If you wish to get the package.json for the current module:
+
+    loadPackage('./')
+    
 If you wish to purge the cache, you can call the `flush` method:
 
     loadPackage.flush()
