@@ -1,5 +1,5 @@
 #load-package-async
-Asynchronously find-up and load the package.json associated with a given directory
+Asynchronously find-up and load the package.json associated with a given directory.
 
 * Stops looking when the first package.json file is found
 * Returns a promise which resolves to the loaded package.json object
