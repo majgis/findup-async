@@ -1,6 +1,6 @@
 {
   "name": "load-package-async",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Asynchronously find-up and load the package.json associated with a given directory.",
   "main": "index.js",
   "scripts": {
