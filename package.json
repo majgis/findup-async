@@ -4,11 +4,11 @@
   "description": "Asynchronously find-up and load the package.json associated with a given directory.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/majgis/findup-async.git"
+    "url": "https://github.com/majgis/load-package-async.git"
   },
   "keywords": [
     "file",
@@ -17,9 +17,9 @@
   "author": "majgis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/majgis/findup-async/issues"
+    "url": "https://github.com/majgis/load-package-async/issues"
   },
-  "homepage": "https://github.com/majgis/findup-async",
+  "homepage": "https://github.com/majgis/load-package-async",
   "dependencies": {
     "bluebird": "^2.9.27",
     "findup": "^0.1.5"
